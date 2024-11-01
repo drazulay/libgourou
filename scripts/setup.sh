@@ -6,6 +6,7 @@ if [ ! -d lib/pugixml ] ; then
     pushd lib/pugixml
     git checkout latest
     cmake .
+    make
     popd
 fi
 
@@ -14,7 +15,7 @@ if [ ! -d lib/updfparser ] ; then
     git clone https://github.com/drazulay/updfparser.git lib/updfparser
     pushd lib/updfparser
     cmake .
-    make all
+    make
     ldconfig
     popd
 fi
