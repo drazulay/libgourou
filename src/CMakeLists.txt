@@ -13,7 +13,7 @@ source_group("Source Files" FILES "${Source_Files}")
 
 add_library("${LIBRARY_NAME}" "${Source_Files}")
 
-find_package(updfparser REQUIRED)
+find_package(/usr/src/libgourou/lib/updfparser CONFIG REQUIRED)
 
 target_link_libraries(
         "${LIBRARY_NAME}"
