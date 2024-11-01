@@ -14,6 +14,7 @@ if [ ! -d lib/updfparser ] ; then
     git clone https://github.com/drazulay/updfparser.git lib/updfparser
     pushd lib/updfparser
     cmake .
+    make all
     ldconfig
     popd
 fi
