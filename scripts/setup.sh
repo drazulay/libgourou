@@ -10,8 +10,8 @@ fi
 
 # uPDFParser
 if [ ! -d lib/updfparser ] ; then
-    git clone git://soutade.fr/updfparser.git lib/updfparser
+    git https://github.com/SamuelMarks/updfparser.git lib/updfparser
     pushd lib/updfparser
-    make BUILD_STATIC=1 BUILD_SHARED=0
+    make BUILD_STATIC=1 BUILD_SHARED=1
     popd
 fi
