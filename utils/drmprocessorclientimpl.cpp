@@ -71,7 +71,7 @@ DRMProcessorClientImpl::~DRMProcessorClientImpl()
 	//OSSL_PROVIDER_unload(legacy);
 
     if (deflt)
-	OSSL_PROVIDER_unload(deflt);
+	//OSSL_PROVIDER_unload(deflt);
 #endif
 }
 
