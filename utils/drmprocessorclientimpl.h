@@ -35,7 +35,7 @@
 #include <openssl/provider.h>
 #endif
 
-#include <drmprocessorclient.h>
+#include "drmprocessorclient.h"
 
 class DRMProcessorClientImpl : public gourou::DRMProcessorClient
 {
