@@ -46,7 +46,7 @@
 #include <zlib.h>
 #include <zip.h>
 
-#include <libgourou_common.h>
+#include "libgourou_common.h"
 #include "drmprocessorclientimpl.h"
 
 DRMProcessorClientImpl::DRMProcessorClientImpl():
