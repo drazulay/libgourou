@@ -40,6 +40,7 @@
 #include <openssl/err.h>
 #include <openssl/rsa.h>
 #include <openssl/bn.h>
+#include <openssl/provider.h>
 
 #include <curl/curl.h>
 
