@@ -23,7 +23,7 @@
 #include <string>
 
 #include "libgourou_export.h"
-#include <bytearray.h>
+#include "bytearray.h"
 
 namespace gourou
 {
