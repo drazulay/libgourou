@@ -66,13 +66,13 @@ DRMProcessorClientImpl::DRMProcessorClientImpl():
 
 DRMProcessorClientImpl::~DRMProcessorClientImpl()
 {
-#if OPENSSL_VERSION_MAJOR >= 3
-    if (legacy)
-	//OSSL_PROVIDER_unload(legacy);
-
-    if (deflt)
-	//OSSL_PROVIDER_unload(deflt);
-#endif
+//#if OPENSSL_VERSION_MAJOR >= 3
+//    if (legacy)
+//	OSSL_PROVIDER_unload(legacy);
+//
+//    if (deflt)
+//	OSSL_PROVIDER_unload(deflt);
+//#endif
 }
 
 /* Digest interface */
